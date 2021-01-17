@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvjoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora"
+        android:text="Join the Group"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etSubcode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <EditText
+        android:id="@+id/etSubcode"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/name1"
+        android:ems="10"
+        android:fontFamily="@font/lora"
+        android:hint="Enter Subject Code"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnjoin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <Button
+        android:id="@+id/btnjoin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/btnlogin"
+        android:fontFamily="@font/lora"
+        android:text="Join"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btncreate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Create New Group"
+        android:fontFamily="@font/lora"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#9400D3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

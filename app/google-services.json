@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677081801629",
+    "firebase_url": "https://colloquium-171801.firebaseio.com",
+    "project_id": "colloquium-171801",
+    "storage_bucket": "colloquium-171801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677081801629:android:81c1b7aeb94a35cefd4574",
+        "android_client_info": {
+          "package_name": "com.example.colloquium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677081801629-mfdojopgbn8fhchpjh4g3dndvnr8tvce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colloquium",
+            "certificate_hash": "eab3064205c08426758b90a859aca021c6d1eed8"
+          }
+        },
+        {
+          "client_id": "677081801629-hcstujo4b000vqig7b4pvhvmmk2mvo8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNX3tmE72hm-eUl1IumzPa_A48fluAVwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677081801629-hcstujo4b000vqig7b4pvhvmmk2mvo8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
