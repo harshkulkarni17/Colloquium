@@ -104,12 +104,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//         tvfpass.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
+//                 Intent i = new Intent(MainActivity.this,forgotpassword.class);
+//                 startActivity(i);
+//             }
+//         });               
         tvfpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,forgotpassword.class);
-                startActivity(i);
+                Intent forPass = new Intent(MainActivity.this,forgotpassword.class);
+                startActivity(forPass);
             }
-        });               
+        }); 
     }
 }
