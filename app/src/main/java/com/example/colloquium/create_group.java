@@ -17,6 +17,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Random;
+import java.util.ArrayList;
 
 public class create_group extends AppCompatActivity {
 
@@ -40,7 +41,15 @@ public class create_group extends AppCompatActivity {
         etsubname = findViewById(R.id.etsubname);
         btngenerate = findViewById(R.id.btngenerate);
         btncreate = findViewById(R.id.btncreate);
-
+        ArrayList<String> data = New ArrayList<>();
+        data.add(tvcreate.toString());
+        data.add(tvsubcode.toString());
+        data.add(sharecode.toString());
+        data.add(etcode.toString());
+        data.add(etsubname.toString());
+        data.add(btngenerate.toString());
+        data.add(btncreate.toString());
+        System.out.println(data); // For debugging purpose
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference().child("Courses");
 
