@@ -88,11 +88,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tvregister.setOnClickListener(new View.OnClickListener() {
+//         tvregister.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
+//                 Intent i = new Intent(MainActivity.this,Signup.class);
+//                 startActivity(i);
+//             }
+//         });
+        
+         tvregister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Signup.class);
-                startActivity(i);
+                Intent signUp = new Intent(MainActivity.this,Signup.class);
+                startActivity(signUp);
             }
         });
 
@@ -102,6 +110,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this,forgotpassword.class);
                 startActivity(i);
             }
-        });
+        });               
     }
 }
