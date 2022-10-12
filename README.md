@@ -2,7 +2,7 @@
 This is a group study application.
 In this, anyone among the group members can create a group and others can join the same group. 
 At the time of group creation, a random subject code is generated and with the help of this code the other members can join the same group for further discussion and working.
-It allows you to share the required notes due to which other members can access it and works efficiently. Also the members can have a group discussion by chat achtivity.
+It allows you to share the required notes due to which other members can access it and works efficiently. Also the members can have a group discussion by chat activitv. The app will help to improve the productivity resulting in time saving and colloborative learning.
 # Screenshots
 <img src = "https://user-images.githubusercontent.com/67639866/135707463-7cebbd38-7bba-46b1-aa92-a0a9c926e196.jpeg" width = "300" height = "600"> <img src = "https://user-images.githubusercontent.com/67639866/135707472-b249d67f-c214-46fd-8a6b-e0e14a4261b1.jpeg" width = "300" height = "600">
 --------------------------------------------------------------------------------------------------------------------------------------------------
